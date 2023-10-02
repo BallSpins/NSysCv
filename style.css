@@ -1,0 +1,40 @@
+.main {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header h1 {
+    text-align: center;
+}
+.Mbtn button, .in button {
+    color: black;
+    background-color: white;
+    border: solid 1px;
+    border-radius: 5px 5px 5px 5px;
+}.in button:active, .in button:hover {
+    color: white;
+    background-color: blue;
+}#Dec {
+    color: white;
+    background-color: blue;
+    
+}
+.Mbtn button:active, .Mbtn button:focus, .Mbtn button:hover {
+    color: white;
+    background-color: blue;
+}
+.hasil {
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    height: 180px;
+    width: 250px;
+    background-color: palegreen;
+    border-radius: 10px 10px 10px 10px;
+} .hasil p {
+    margin: 5px 0 5px 0;
+    font-weight: 600;
+} #p1 {
+    margin-top: 10px;
+}
+.in {
+    margin: 20px 0 0 0;
+}

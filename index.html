@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>NumSysConv</title>
+</head>
+<body>
+    <header>
+        <h1>Number System Converter</h1>
+    </header>
+    <div class="main" align="center">
+        <h5>Choose Units:</h5>
+        <div class="Mbtn">
+            <button id="Dec" onclick="toDec()">Decimal</button>
+            <button id="Bin" onclick="toBin()">Binary</button>
+            <button id="Hex" onclick="toHex()">Hexadecimal</button>
+            <button id="Oct" onclick="toOct()">Octal</button>
+        </div>
+        <div class="in">
+            <input type="text" id="input" placeholder="Number">
+            <button id="Calc" onclick="funcDec()">Calc</button>
+        </div>
+        <div class="hasil">
+            <p>Decimal: <hasil id="p1"></hasil></p><br>
+            <p>Binary: <hasil id="p2"></hasil></p><br>
+            <p>Hexadecimal: <hasil id="p3"></hasil></p><br>
+            <p>Octal: <hasil id="p4"></hasil></p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
