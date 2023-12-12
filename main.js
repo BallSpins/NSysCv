@@ -1,7 +1,7 @@
 let base = 10;
 
 window.onload = function() {
-    console.log("Loaded!");
+    console.log("Loaded! ");
 }
 
 const setColor = elem => {
