@@ -14,20 +14,20 @@
     <div class="main" align="center">
         <h5>Choose Units:</h5>
         <div class="Mbtn">
-            <button id="Dec" onclick="toDec()">Decimal</button>
-            <button id="Bin" onclick="toBin()">Binary</button>
-            <button id="Hex" onclick="toHex()">Hexadecimal</button>
-            <button id="Oct" onclick="toOct()">Octal</button>
+            <button id="Dec" onclick="changeBase(Dec, 10)">Decimal</button>
+            <button id="Bin" onclick="changeBase(Bin, 2)">Binary</button>
+            <button id="Hex" onclick="changeBase(Hex, 16)">Hexadecimal</button>
+            <button id="Oct" onclick="changeBase(Oct, 8)">Octal</button>
         </div>
         <div class="in">
             <input type="text" id="input" placeholder="Number">
-            <button id="Calc" onclick="funcDec()">Calc</button>
+            <button id="Calc" onclick="Convert(input.value, base)">Calc</button>
         </div>
         <div class="hasil">
-            <p>Decimal: <hasil id="p1"></hasil></p><br>
-            <p>Binary: <hasil id="p2"></hasil></p><br>
-            <p>Hexadecimal: <hasil id="p3"></hasil></p><br>
-            <p>Octal: <hasil id="p4"></hasil></p>
+            <p>Decimal: <hasil id="DecOut"></hasil></p><br>
+            <p>Binary: <hasil id="BinOut"></hasil></p><br>
+            <p>Hexadecimal: <hasil id="HexOut"></hasil></p><br>
+            <p>Octal: <hasil id="OctOut"></hasil></p>
         </div>
     </div>
     <script src="main.js"></script>
